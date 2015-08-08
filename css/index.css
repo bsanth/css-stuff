@@ -1,0 +1,48 @@
+nav ul {
+   list-style-type: none;
+   padding: 0px;
+}
+
+nav ul li {
+   line-height: 30px;
+}
+
+header {
+   font-weight: bold;
+}
+
+footer {
+   text-align: center;
+   position: fixed;
+   bottom: 0px;
+   left: 0px;
+   width: 100%;
+}
+
+content {
+   text-align: center;
+}
+
+@keyframes float {
+   50% {
+      top: 10px;
+   }
+   100% {
+     top: 0px;
+   }
+}
+
+.float {
+   position: relative;
+   top: 0px;
+   width: 200px;
+   height: 100px;
+   animation-name: float;
+   animation-duration: 3s;
+   animation-timing-function: ease;
+   animation-iteration-count: infinite;
+}
+
+.rocket {
+   width: 100px;
+}
